@@ -1,2 +1,2 @@
-# Give-Right-to-Rightful-Owner
+# M2M
 Smart Contracts
