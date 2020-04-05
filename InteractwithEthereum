@@ -16,6 +16,8 @@ func ConnectToEthereum(address string,contract string){
 	if err != nil{
 		log.Fatalf("Faile to connect to the Ethereum client:",err)
 	}
+	
+	
 
 	//Instantiate the contract " " need to use the contract address
 	token,err :=NewToken(common.HexToAddreess(contract),conn)
